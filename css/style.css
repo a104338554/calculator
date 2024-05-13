@@ -1,0 +1,50 @@
+.body{
+    width: 500px;
+    height: 982px;
+    margin: 50px auto;
+    padding: 267px 28px 93px;
+    border-radius: 50px;
+    background-color: #000;
+
+}
+.display{
+    height: 100px;
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+    text-align: right;
+
+
+}
+.keypad{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+.keypad button{
+    width: 90px;
+    height: 90px;
+    border-radius: 44px;
+    background-color: green;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    line-height: 90px;
+    border: none;
+
+
+}
+.keypad [id="0"]{
+    width: 208px;
+}
+.keypad .sign,#equal{
+    background-color: #ff9f0a;
+}
+.keypad .grey{
+    background-color: #a5a5a5;
+}
+.keypad .number{
+    background-color: #333;
+}
